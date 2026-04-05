@@ -7,7 +7,9 @@
 
 <!-- badges: end -->
 
-The goal of toypackage is to …
+The goal of toypackage is to split a string into a character vector. It
+is designed as a practice package for learning how to build R packages
+using devtools and testthat.
 
 ## Installation
 
