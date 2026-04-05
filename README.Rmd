@@ -31,11 +31,17 @@ pak::pak("cysisaac/toypackage")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+A common real-life task is cleaning and processing raw text data.  
+For example, suppose you have a string of items separated by commas (e.g., user input or CSV-like data), and you want to convert it into a usable vector.
 
 ```{r example}
 library(toypackage)
-## basic example code
+
+# Raw input string from a user or dataset
+items <- "apple,banana,orange"
+
+# Convert into a vector
+str_split_one(items, ",")
 ```
 
 What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
